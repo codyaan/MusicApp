@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Adding the favicon  -->
+    <link rel="icon" type="image/x-icon" href="music-icon.ico">
+
+    
+    <!-- Attaching the CSS file to the HTML page  -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player App</title>
+</head>
+
+<body>
+
+
+    <!-- ----------------------------------- Main Container -------------------------------- -->
+    <div class="main">
+
+        <!-- ----------------------------------- Side Bar -------------------------------- -->
+        <div class="side-bar">
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="./assets/logo.png" alt=""> Musicify
+                </div>
+
+                <img id="cross" class="cross" src="./assets/cross.svg" alt="">
+            </div>
+
+            <nav class="nav">
+                <li id="home"><a class="li-items active" href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li id="popularSongs"><a class="li-items active" href="#"><i class="fa-solid fa-headphones"></i> Popular
+                        Songs</a></li>
+                <li id="artists"><a class="li-items active" href="#"><i class="fa-solid fa-user"></i>
+                        Artists Library</a></li>
+            </nav>
+        </div>
+        <!-- ----------------------------------- End of the Side Bar -------------------------------- -->
+
+
+
+
+        <!-- ----------------------------------- Right Div -------------------------------- -->
+
+        <div class="right">
+
+
+            <img id="hamburger" class="hamburger" src="./assets/hamburger.svg" alt="">
+            <!-- ----------------------------------- Main Tab -------------------------------- -->
+            <div class="tab main-tab">
+
+                <div class="welcome">
+                    <p>Welcome to Music Player</p>
+                    <div class="btns">
+                        <button id="welcomeBtn" class="welcome-btn">Check out songs</button>
+                        <button id="libraryBtn" class="welcome-btn">Artists Library</button>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+            <!-- ----------------------------------- End of the Main tab -------------------------------- -->
+
+
+
+
+            <!-- ----------------------------------- Home Tab -------------------------------- -->
+            <div class="tab home">
+
+                <!-- Heading  -->
+                <div class="heading">All Songs</div>
+                <!-- songs card will be placed here  -->
+
+
+                <!-- Song cards will be placed here   -->
+
+            </div>
+            <!-- ----------------------------------- End of the Home tab -------------------------------- -->
+
+
+
+
+
+            <!-- ----------------------------------- Popular songs tab -------------------------------- -->
+            <div class="tab popular-songs">
+
+                <!-- Heading  -->
+                <div class="heading">Popular Songs</div>
+
+
+
+                <!-- popular Song cards will be placed here   -->
+                
+
+
+            </div>
+            <!-- ----------------------------------- End of the songs tab -------------------------------- -->
+
+
+
+
+
+
+            <!-- ----------------------------------- Artists tab -------------------------------- -->
+            <div class="tab artists">
+
+                <!-- Heading  -->
+                <div class="heading">Popular Artists</div>
+
+
+                <!-- artist cards will be placed here   -->
+                
+
+            </div>
+            <!-- ----------------------------------- End of the Artists tab -------------------------------- -->
+
+            
+            <!-- ----------------------------------- Artist-song tab -------------------------------- -->
+            <div class="tab artist-song">
+
+
+                <!-- artist Song cards will be placed here   -->
+                    
+
+
+            </div>
+
+
+            <!-- ----------------------------------- End of the Artist-song tab -------------------------------- -->
+
+            
+
+
+
+
+            
+
+            
+
+
+
+
+
+
+        </div>
+
+        <!-- ----------------------------------- End of the Right Div -------------------------------- -->
+
+
+
+
+        <!-- ----------------------------------- SeekBar -------------------------------- -->
+        <div class="seek-bar">
+
+            <div class="seekbar-content">
+
+                <div class="song-name"></div>
+
+
+                <div class="seekbar-btns">
+                    <img id="previousBtn" src="./assets/previous.svg" alt="">
+                    <img id="playBtn" src="./assets/play.svg" alt="">
+                    <img id="nextBtn" src="./assets/next.svg" alt="">
+                </div>
+                <div class="song-time">
+                    <div id="songTime">00:00/00:00</div>
+
+                    <div class="volume-bar">
+                        <img id="volumeBtn" src="./assets/volume.svg" alt="">
+                        <input type="range" name="" id="" value="100">
+                    </div>
+                </div>
+            </div>
+            <div class="seek-bar-div2"></div>
+            <div class="seek-bar-div">
+                <div class="circle"></div>
+            </div>
+
+
+
+        </div>
+        <!-- ----------------------------------- End of SeekBar -------------------------------- -->
+
+
+
+
+
+    </div>
+    <!-- ----------------------------------- End of the Main Container -------------------------------- -->
+
+
+
+
+
+
+
+
+    <!-- Adding font awesome kit for icons  -->
+    <script src="https://kit.fontawesome.com/87e05c8356.js" crossorigin="anonymous"></script>
+
+    <!-- Attaching the JavaScript file to the HTML page  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
